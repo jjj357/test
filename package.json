@@ -1,0 +1,23 @@
+{
+  "name": "tvo",
+  "version": "1.0.0",
+  "description": "tvo test",
+  "main": "index.js",
+  "scripts": {
+	"start": "node server/index.js",
+	"build": "cd client && npm install && npm run build",
+    "test": "tvotest"
+  },
+  "keywords": [
+    "tvo",
+    "test"
+  ],
+  "author": "Mingtao Li",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "express": "^4.21.0",
+    "react-redux": "^9.1.2",
+	"axios": "^0.19.0"
+  }
+}
