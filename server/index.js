@@ -7,8 +7,8 @@ const PORT = process.env.PORT || 3001;
 app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 app.get('/', function (req, res) {
-	//res.json({ message: "Hello world!" });
-	  res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
+    //res.json({ message: "Hello world!" });
+      res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
    //res.sendFile(path.join(__dirname,"/../client/public/index.html"));
 })
 
